@@ -4,12 +4,12 @@ import Footer from '../../components/Footer'
 import { Phone, Mail, Clock, MessageCircle, MapPin, Headphones, Send, Globe } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Contact IPTV Baba - 24/7 Premium Support for Your IPTV Service',
-  description: 'Contact IPTV Baba for instant support with your IPTV subscription. Get help via WhatsApp, email or phone. Fast activation and professional service.',
-  keywords: 'contact IPTV Baba, IPTV support, IPTV help, IPTV customer service, IPTV Baba contact, IPTV technical support',
+  title: 'Contact Super-IPTV - 24/7 Premium Ondersteuning voor Jouw IPTV Service',
+  description: 'Neem contact op met Super-IPTV voor directe ondersteuning met jouw IPTV abonnement. Krijg hulp via WhatsApp, email of telefoon. Snelle activering en professionele service.',
+  keywords: 'contact Super-IPTV, IPTV ondersteuning, IPTV hulp, IPTV klantenservice, Super-IPTV contact, IPTV technische ondersteuning',
   openGraph: {
-    title: 'Contact IPTV Baba - Premium IPTV Support',
-    description: 'Get instant help with your IPTV Baba subscription. 24/7 WhatsApp support, fast activation, and professional service.',
+    title: 'Contact Super-IPTV - Premium IPTV Ondersteuning',
+    description: 'Krijg directe hulp met jouw Super-IPTV abonnement. 24/7 WhatsApp ondersteuning, snelle activering, en professionele service.',
     images: ['/images/logo.webp'],
   }
 }
@@ -18,28 +18,28 @@ export default function Contact() {
   const contactMethods = [
     {
       icon: <MessageCircle className="w-8 h-8" />,
-      title: "WhatsApp Support",
-      description: "Get instant help with your IPTV subscription",
+      title: "WhatsApp Ondersteuning",
+      description: "Krijg directe hulp met jouw IPTV abonnement",
       contact: "+1 (323) 704‑4063",
       link: "https://wa.link/bof0mw",
-      available: "24/7 Available",
+      available: "24/7 Beschikbaar",
       primary: true
     },
     {
       icon: <Mail className="w-8 h-8" />,
-      title: "Email Support",
-      description: "Send us your IPTV service questions",
-      contact: "support@iptvbaba.com",
-      link: "mailto:support@iptvbaba.com",
-      available: "Response within 2 hours"
+      title: "Email Ondersteuning",
+      description: "Stuur ons jouw IPTV service vragen",
+      contact: "support@super-iptv.nl",
+      link: "mailto:support@super-iptv.nl",
+      available: "Reactie binnen 2 uur"
     },
     {
       icon: <Phone className="w-8 h-8" />,
-      title: "Phone Support",
-      description: "Call us for immediate IPTV assistance",
+      title: "Telefoon Ondersteuning",
+      description: "Bel ons voor directe IPTV hulp",
       contact: "+1 (323) 704‑4063",
       link: "tel:+13237044063",
-      available: "24/7 Support Line"
+      available: "24/7 Ondersteuningslijn"
     }
   ]
 
@@ -74,11 +74,11 @@ export default function Contact() {
       <section className="bg-gradient-to-br from-primary-600 to-primary-800 text-white py-20">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            Contact <span className="text-yellow-400">IPTV Baba</span>
+            Contact <span className="text-yellow-400">Super-IPTV</span>
           </h1>
           <p className="text-xl md:text-2xl max-w-4xl mx-auto leading-relaxed mb-8">
-            Need help with your IPTV subscription? Our premium support team is available 24/7 
-            to assist you with setup, activation, and any technical questions.
+            Hulp nodig met jouw IPTV abonnement? Ons premium ondersteuningsteam is 24/7 beschikbaar 
+            om je te helpen met setup, activering, en alle technische vragen.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a 
@@ -88,14 +88,14 @@ export default function Contact() {
               className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors inline-flex items-center gap-2"
             >
               <MessageCircle className="w-5 h-5" />
-              WhatsApp Now
+              WhatsApp Nu
             </a>
             <a 
               href="tel:+13237044063"
               className="bg-white text-primary-600 hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold text-lg transition-colors inline-flex items-center gap-2"
             >
               <Phone className="w-5 h-5" />
-              Call Us
+              Bel Ons
             </a>
           </div>
         </div>
