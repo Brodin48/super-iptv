@@ -186,18 +186,22 @@ export default function Pricing() {
           </p>
         </div>
 
-        {/* Premium Lifetime Offer */}
+        {/* Premium Lifetime Offer with Netherlands Flag */}
         <div className="max-w-7xl mx-auto mt-12 sm:mt-16">
-          <div className="relative bg-gradient-to-r from-primary-600 via-primary-700 to-primary-800 rounded-2xl sm:rounded-3xl shadow-2xl p-6 sm:p-8 lg:p-12 transform hover:scale-102 transition-all duration-500 overflow-hidden">
+          <div className="relative netherlands-flag-waving rounded-2xl sm:rounded-3xl shadow-2xl p-6 sm:p-8 lg:p-12 transform hover:scale-102 transition-all duration-500 overflow-hidden">
             
-            {/* Animated background elements */}
-            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white to-transparent opacity-10 animate-pulse"></div>
+            {/* Animated flag wave overlay */}
+            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white via-transparent to-transparent opacity-20 animate-pulse"></div>
+            
+            {/* Netherlands flag accent elements */}
             <div className="hidden lg:block absolute -top-10 -right-10 w-32 h-32 bg-white rounded-full opacity-10 animate-bounce"></div>
-            <div className="hidden lg:block absolute -bottom-10 -left-10 w-40 h-40 bg-white rounded-full opacity-5"></div>
+            <div className="hidden lg:block absolute -bottom-10 -left-10 w-40 h-40 flag-ribbon rounded-full opacity-30"></div>
+            <div className="hidden lg:block absolute top-10 left-10 w-20 h-20 bg-netherlands-red rounded-full opacity-20 animate-pulse" style={{backgroundColor: '#DC2626'}}></div>
+            <div className="hidden lg:block absolute bottom-10 right-10 w-24 h-24 bg-netherlands-blue rounded-full opacity-20 animate-pulse" style={{backgroundColor: '#1D4ED8'}}></div>
             
-            {/* Premium badge */}
+            {/* Premium badge with flag colors */}
             <div className="flex justify-center mb-4 sm:mb-6">
-              <div className="bg-gradient-to-r from-primary-700 to-primary-800 text-white px-4 sm:px-6 py-2 rounded-full text-xs sm:text-sm font-bold flex items-center shadow-lg border-2 border-white">
+              <div className="flag-ribbon text-white px-4 sm:px-6 py-2 rounded-full text-xs sm:text-sm font-bold flex items-center shadow-lg border-2 border-white">
                 <Crown className="w-3 h-3 sm:w-4 sm:h-4 mr-2 animate-pulse" />
                 <span className="hidden sm:inline">✨ EXCLUSIEF PREMIUM LEVENSLANG AANBOD ✨</span>
                 <span className="sm:hidden">✨ LEVENSLANG AANBOD ✨</span>
@@ -209,79 +213,84 @@ export default function Pricing() {
                 
                 {/* Left: Title and Price */}
                 <div className="text-center lg:text-left text-white">
-                  <h3 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold mb-3 sm:mb-4 bg-gradient-to-r from-white to-blue-100 bg-clip-text text-transparent drop-shadow-lg">
+                  <h3 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold mb-3 sm:mb-4 bg-gradient-to-r from-white via-blue-100 to-white bg-clip-text text-transparent drop-shadow-xl">
                     Levenslange Toegang
                   </h3>
                   
                   <div className="mb-3 sm:mb-4">
-                    <div className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-white drop-shadow-xl">
+                    <div className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-white drop-shadow-2xl animate-pulse">
                       €289.99
                     </div>
                   </div>
                   
-                  <div className="text-sm sm:text-lg lg:text-xl font-semibold text-secondary-100 mb-4 sm:mb-6">
+                  <div className="text-sm sm:text-lg lg:text-xl font-semibold text-white mb-4 sm:mb-6 opacity-95">
                     Eenmalige betaling<br />Geen maandelijkse kosten<br />Onbeperkte apparaten
                   </div>
 
-                  {/* CTA Button */}
+                  {/* CTA Button with flag theme */}
                   <a 
                     href="https://wa.link/aipqam" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center bg-white text-primary-500 px-6 sm:px-8 py-3 sm:py-4 rounded-xl text-lg sm:text-xl font-black hover:bg-gray-50 transition-all duration-300 transform hover:scale-105 shadow-2xl border-2 border-secondary-200 hover:border-secondary-300 group"
+                    className="inline-flex items-center justify-center bg-white text-primary-500 px-6 sm:px-8 py-3 sm:py-4 rounded-xl text-lg sm:text-xl font-black hover:bg-gray-50 transition-all duration-300 transform hover:scale-105 shadow-2xl border-4 border-white hover:border-blue-200 group relative overflow-hidden"
                   >
-                    <Crown className="w-5 h-5 sm:w-6 sm:h-6 mr-2 group-hover:animate-spin" />
-                    CLAIM LEVENSLANG
+                    <div className="absolute inset-0 flag-ribbon opacity-10 group-hover:opacity-20 transition-opacity"></div>
+                    <Crown className="w-5 h-5 sm:w-6 sm:h-6 mr-2 group-hover:animate-spin relative z-10" />
+                    <span className="relative z-10">CLAIM LEVENSLANG</span>
                   </a>
                 </div>
 
                 {/* Right: Features */}
                 <div className="lg:col-span-2">
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
-                    <div className="bg-white bg-opacity-20 backdrop-blur-sm rounded-xl p-3 sm:p-4 border border-white border-opacity-30">
+                    <div className="bg-white bg-opacity-20 backdrop-blur-sm rounded-xl p-3 sm:p-4 border border-white border-opacity-30 relative overflow-hidden">
+                      <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-netherlands-red via-white to-netherlands-blue"></div>
                       <div className="flex items-center">
                         <div className="w-8 h-8 sm:w-10 sm:h-10 bg-white rounded-full flex items-center justify-center mr-3 shadow-lg flex-shrink-0">
-                          <Tv className="w-4 h-4 sm:w-5 sm:h-5 text-primary-500" />
+                          <Tv className="w-4 h-4 sm:w-5 sm:h-5" style={{color: '#DC2626'}} />
                         </div>
                         <div>
                           <div className="font-bold text-white text-sm sm:text-base">25.000+ Live Kanalen</div>
-                          <div className="text-secondary-100 text-xs sm:text-sm">Wereldwijde dekking</div>
+                          <div className="text-white opacity-90 text-xs sm:text-sm">Wereldwijde dekking</div>
                         </div>
                       </div>
                     </div>
                     
-                    <div className="bg-white bg-opacity-20 backdrop-blur-sm rounded-xl p-3 sm:p-4 border border-white border-opacity-30">
+                    <div className="bg-white bg-opacity-20 backdrop-blur-sm rounded-xl p-3 sm:p-4 border border-white border-opacity-30 relative overflow-hidden">
+                      <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-netherlands-blue via-white to-netherlands-red"></div>
                       <div className="flex items-center">
                         <div className="w-8 h-8 sm:w-10 sm:h-10 bg-white rounded-full flex items-center justify-center mr-3 shadow-lg flex-shrink-0">
-                          <Star className="w-4 h-4 sm:w-5 sm:h-5 text-primary-500" />
+                          <Star className="w-4 h-4 sm:w-5 sm:h-5" style={{color: '#1D4ED8'}} />
                         </div>
                         <div>
                           <div className="font-bold text-white text-sm sm:text-base">26.000+ Films & Series</div>
-                          <div className="text-secondary-100 text-xs sm:text-sm">Nieuwste releases inbegrepen</div>
+                          <div className="text-white opacity-90 text-xs sm:text-sm">Nieuwste releases inbegrepen</div>
                         </div>
                       </div>
                     </div>
                     
-                    <div className="bg-white bg-opacity-20 backdrop-blur-sm rounded-xl p-3 sm:p-4 border border-white border-opacity-30">
+                    <div className="bg-white bg-opacity-20 backdrop-blur-sm rounded-xl p-3 sm:p-4 border border-white border-opacity-30 relative overflow-hidden">
+                      <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-netherlands-red via-white to-netherlands-blue"></div>
                       <div className="flex items-center">
                         <div className="w-8 h-8 sm:w-10 sm:h-10 bg-white rounded-full flex items-center justify-center mr-3 shadow-lg flex-shrink-0">
-                          <Zap className="w-4 h-4 sm:w-5 sm:h-5 text-primary-500" />
+                          <Zap className="w-4 h-4 sm:w-5 sm:h-5" style={{color: '#DC2626'}} />
                         </div>
                         <div>
                           <div className="font-bold text-white text-sm sm:text-base">Ultra HD & 4K Kwaliteit</div>
-                          <div className="text-secondary-100 text-xs sm:text-sm">Kristalheldere streaming</div>
+                          <div className="text-white opacity-90 text-xs sm:text-sm">Kristalheldere streaming</div>
                         </div>
                       </div>
                     </div>
                     
-                    <div className="bg-white bg-opacity-20 backdrop-blur-sm rounded-xl p-3 sm:p-4 border border-white border-opacity-30">
+                    <div className="bg-white bg-opacity-20 backdrop-blur-sm rounded-xl p-3 sm:p-4 border border-white border-opacity-30 relative overflow-hidden">
+                      <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-netherlands-blue via-white to-netherlands-red"></div>
                       <div className="flex items-center">
                         <div className="w-8 h-8 sm:w-10 sm:h-10 bg-white rounded-full flex items-center justify-center mr-3 shadow-lg flex-shrink-0">
-                          <Users className="w-4 h-4 sm:w-5 sm:h-5 text-primary-500" />
+                          <Users className="w-4 h-4 sm:w-5 sm:h-5" style={{color: '#1D4ED8'}} />
                         </div>
                         <div>
                           <div className="font-bold text-white text-sm sm:text-base">Onbeperkte Apparaten</div>
-                          <div className="text-secondary-100 text-xs sm:text-sm">Gebruik op al je apparaten</div>
+                          <div className="text-white opacity-90 text-xs sm:text-sm">Gebruik op al je apparaten</div>
                         </div>
                       </div>
                     </div>
@@ -289,23 +298,23 @@ export default function Pricing() {
 
                   {/* Bottom text and trust indicators */}
                   <div className="mt-4 sm:mt-6 text-center">
-                    <div className="text-secondary-100 text-sm sm:text-lg font-semibold mb-3 sm:mb-4">
-                      🔥 <span className="hidden sm:inline">Beperkt Tijd Aanbod • Bespaar €1.000+ vs Maandelijkse Plannen</span>
+                    <div className="text-white text-sm sm:text-lg font-semibold mb-3 sm:mb-4 animate-pulse">
+                      🇳🇱 <span className="hidden sm:inline">Beperkt Tijd Aanbod • Bespaar €1.000+ vs Maandelijkse Plannen</span>
                       <span className="sm:hidden">Bespaar €1.000+ vs Maandelijkse Plannen</span>
                     </div>
                     
-                    {/* Trust indicators */}
-                    <div className="flex justify-center items-center space-x-4 sm:space-x-6 text-secondary-100">
+                    {/* Trust indicators with Netherlands colors */}
+                    <div className="flex justify-center items-center space-x-4 sm:space-x-6 text-white">
                       <div className="flex items-center">
-                        <Star className="w-3 h-3 sm:w-4 sm:h-4 mr-1 sm:mr-2 text-secondary-300" />
+                        <Star className="w-3 h-3 sm:w-4 sm:h-4 mr-1 sm:mr-2 animate-pulse" style={{color: '#DC2626'}} />
                         <span className="text-xs sm:text-sm font-semibold">Premium Kwaliteit</span>
                       </div>
                       <div className="flex items-center">
-                        <Shield className="w-3 h-3 sm:w-4 sm:h-4 mr-1 sm:mr-2 text-secondary-300" />
+                        <Shield className="w-3 h-3 sm:w-4 sm:h-4 mr-1 sm:mr-2 animate-pulse" style={{color: '#FFFFFF'}} />
                         <span className="text-xs sm:text-sm font-semibold">Veilige Betaling</span>
                       </div>
                       <div className="flex items-center">
-                        <Crown className="w-3 h-3 sm:w-4 sm:h-4 mr-1 sm:mr-2 text-secondary-300" />
+                        <Crown className="w-3 h-3 sm:w-4 sm:h-4 mr-1 sm:mr-2 animate-pulse" style={{color: '#1D4ED8'}} />
                         <span className="text-xs sm:text-sm font-semibold">VIP Status</span>
                       </div>
                     </div>
