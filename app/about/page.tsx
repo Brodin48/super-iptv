@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import TopHeader from '../../components/TopHeader'
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import { Star, Zap, Shield, Users, Clock, CheckCircle } from 'lucide-react'
@@ -38,6 +39,7 @@ export default function About() {
 
   return (
     <main className="min-h-screen">
+      <TopHeader />
       <Header />
       
       {/* Hero Section */}

@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import TopHeader from '../../components/TopHeader'
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import { Phone, Mail, Clock, MessageCircle, MapPin, Headphones, Send, Globe } from 'lucide-react'
@@ -68,6 +69,7 @@ export default function Contact() {
 
   return (
     <main className="min-h-screen">
+      <TopHeader />
       <Header />
       
       {/* Hero Section */}
