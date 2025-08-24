@@ -1,6 +1,7 @@
 import Header from '../components/Header'
 import Hero from '../components/Hero'
 import ChannelLogosCarousel from '../components/ChannelLogosCarousel'
+import SportsChannelsMarquee from '../components/SportsChannelsMarquee'
 import MoviesCarousel from '../components/MoviesCarousel'
 import Features from '../components/Features'
 import SEOContent from '../components/SEOContent'
@@ -16,6 +17,7 @@ export default function Home() {
       <Header />
       <Hero />
       <ChannelLogosCarousel />
+      <SportsChannelsMarquee />
       <MoviesCarousel />
       <Pricing />
       <Features />
