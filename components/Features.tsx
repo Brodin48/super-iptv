@@ -4,33 +4,33 @@ export default function Features() {
   const features = [
     {
       icon: <Zap className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 text-primary-500" />,
-      title: "Fast Installation",
-      description: "Get started in minutes with our quick setup process. No technical knowledge required."
+      title: "Snelle Installatie",
+      description: "Begin in enkele minuten met ons snelle setup proces. Geen technische kennis vereist."
     },
     {
       icon: <Monitor className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 text-primary-500" />,
-      title: "HD & 4K Quality",
-      description: "Experience crystal clear viewing with HD & 4K streaming quality for the ultimate experience."
+      title: "HD & 4K Kwaliteit",
+      description: "Ervaar kristalheldere weergave met HD & 4K streaming kwaliteit voor de ultieme ervaring."
     },
     {
       icon: <Shield className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 text-primary-500" />,
-      title: "Ultra Fast Server",
-      description: "Premium servers ensure smooth streaming with minimal buffering and maximum uptime."
+      title: "Ultra Snelle Server",
+      description: "Premium servers zorgen voor vloeiende streaming met minimale buffering en maximale uptime."
     },
     {
       icon: <Users className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 text-primary-500" />,
-      title: "Compatible with All Devices",
-      description: "Works on Smart TVs, Android boxes, iOS devices, computers, and many more devices."
+      title: "Compatible met Alle Apparaten",
+      description: "Werkt op Smart TV's, Android boxes, iOS apparaten, computers, en veel meer apparaten."
     },
     {
       icon: <RotateCcw className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 text-primary-500" />,
-      title: "Regular Content Updates",
-      description: "Our content library keeps growing with regular updates to movies, shows, and channels."
+      title: "Regelmatige Content Updates",
+      description: "Onze content bibliotheek blijft groeien met regelmatige updates van films, series, en kanalen."
     },
     {
       icon: <Clock className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 text-primary-500" />,
-      title: "24/7 Premium Support",
-      description: "Round-the-clock premium customer support to help you with any issues or questions."
+      title: "24/7 Premium Ondersteuning",
+      description: "24/7 premium klantenondersteuning om je te helpen met eventuele problemen of vragen."
     }
   ]
 
@@ -39,13 +39,13 @@ export default function Features() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12 sm:mb-16">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4 sm:mb-6">
-            Why Choose Our <span className="text-primary-600">IPTV Baba</span> Service?
+            Waarom Kiezen Voor Onze <span className="text-primary-600">Super-IPTV</span> Service?
           </h2>
           <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-xs sm:max-w-2xl lg:max-w-3xl mx-auto leading-relaxed">
-            Experience the premium <strong>IPTV Baba</strong> difference with our world-class subscription service. 
-            <span className="hidden sm:inline"> Our <strong>IPTV Baba</strong> platform works seamlessly with all devices 
-            including M3U, Enigma 2, Android Box, Smart TV, MAG Box and more. Get instant access to 
-            25,000+ Live Channels & 26,000+ Movies/Shows with your <strong>IPTV Baba</strong> subscription.</span>
+            Ervaar het premium <strong>Super-IPTV</strong> verschil met onze wereldklasse abonnement service. 
+            <span className="hidden sm:inline"> Ons <strong>Super-IPTV</strong> platform werkt naadloos met alle apparaten 
+            inclusief M3U, Enigma 2, Android Box, Smart TV, MAG Box en meer. Krijg directe toegang tot 
+            25.000+ Live Kanalen & 26.000+ Films/Series met jouw <strong>Super-IPTV</strong> abonnement.</span>
           </p>
         </div>
 
@@ -67,9 +67,9 @@ export default function Features() {
 
         {/* Additional info section for mobile */}
         <div className="sm:hidden mt-8 bg-white rounded-xl p-6 shadow-lg text-center">
-          <h3 className="text-lg font-bold text-gray-800 mb-3">Complete Device Support</h3>
+          <h3 className="text-lg font-bold text-gray-800 mb-3">Volledige Apparaat Ondersteuning</h3>
           <p className="text-sm text-gray-600">
-            Works with M3U, Enigma 2, Android Box, Smart TV, MAG Box, iOS, Windows, Mac, and more devices.
+            Werkt met M3U, Enigma 2, Android Box, Smart TV, MAG Box, iOS, Windows, Mac, en meer apparaten.
           </p>
         </div>
       </div>
