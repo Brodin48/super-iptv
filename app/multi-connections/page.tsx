@@ -1,9 +1,9 @@
 import { Check, Star, Crown, Shield, Zap, Tv, Users, Play, Wifi, Monitor } from 'lucide-react'
 
 export const metadata = {
-  title: 'IPTV Baba Multi-Device Plans - 2 or 3 Connections | iptvbaba.com',
-  description: 'IPTV Baba multi-device subscription plans in USD. Connect 2 or 3 devices simultaneously. Perfect for couples and families. Premium IPTV with multiple connections up to 3 devices maximum.',
-  keywords: 'IPTV Baba multi device, multiple connections, family IPTV, 2 devices, 3 devices, maximum 3 connections, USD pricing',
+  title: 'Super-IPTV Multi-Apparaat Plannen - 2 of 3 Verbindingen | super-iptv.nl',
+  description: 'Super-IPTV multi-apparaat abonnement plannen in EUR. Verbind 2 of 3 apparaten tegelijkertijd. Perfect voor koppels en families. Premium IPTV met meerdere verbindingen tot maximaal 3 apparaten.',
+  keywords: 'Super-IPTV multi apparaat, meerdere verbindingen, familie IPTV, 2 apparaten, 3 apparaten, maximaal 3 verbindingen, EUR prijzen',
 }
 
 export default function MultiConnectionsPage() {
