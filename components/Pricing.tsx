@@ -8,56 +8,56 @@ export default function Pricing() {
       popular: false,
       plans: [
         { 
-          duration: "1 Month", 
-          price: "$10.99", 
-          originalPrice: "$19.99", 
+          duration: "1 Maand", 
+          price: "€10.99", 
+          originalPrice: "€19.99", 
           buyLink: "https://wa.link/aipqam", 
           savings: "45%",
-          badge: "SAVE 45%"
+          badge: "BESPAAR 45%"
         },
         { 
-          duration: "3 Months", 
-          price: "$25.99", 
-          originalPrice: "$59.97", 
+          duration: "3 Maanden", 
+          price: "€25.99", 
+          originalPrice: "€59.97", 
           buyLink: "https://wa.link/aipqam", 
           savings: "57%",
-          badge: "POPULAR"
+          badge: "POPULAIR"
         },
         { 
-          duration: "6 Months", 
-          price: "$39.99", 
-          originalPrice: "$119.94", 
+          duration: "6 Maanden", 
+          price: "€39.99", 
+          originalPrice: "€119.94", 
           buyLink: "https://wa.link/aipqam", 
           savings: "67%",
-          badge: "BEST VALUE"
+          badge: "BESTE WAARDE"
         },
         { 
-          duration: "12 Months", 
-          price: "$49.99", 
-          originalPrice: "$139.88", 
+          duration: "12 Maanden", 
+          price: "€49.99", 
+          originalPrice: "€139.88", 
           buyLink: "https://wa.link/aipqam", 
           savings: "64%",
-          badge: "BEST VALUE"
+          badge: "BESTE WAARDE"
         },
         { 
-          duration: "24 Months", 
-          price: "$89.99", 
-          originalPrice: "$279.76", 
+          duration: "24 Maanden", 
+          price: "€89.99", 
+          originalPrice: "€279.76", 
           buyLink: "https://wa.link/aipqam", 
           savings: "68%",
-          badge: "MAXIMUM SAVINGS"
+          badge: "MAXIMALE BESPARINGEN"
         }
       ]
     }
   ]
 
   const features = [
-    "25,000+ Live TV Channels",
-    "HD & 4K Streaming Quality",
-    "Regular Content Updates",
-    "24/7 IPTV Support",
-    "Compatible with All Devices",
-    "Adult Content Included"
+    "25.000+ Live TV Kanalen",
+    "HD & 4K Streaming Kwaliteit",
+    "Regelmatige Content Updates",
+    "24/7 IPTV Ondersteuning",
+    "Compatible met Alle Apparaten",
+    "Adult Content Inbegrepen"
   ]
 
   return (
@@ -65,10 +65,10 @@ export default function Pricing() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12 sm:mb-16">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4 sm:mb-6">
-            Choose Your Perfect <span className="text-primary-600">Plan</span>
+            Kies Jouw Perfecte <span className="text-primary-600">Plan</span>
           </h2>
           <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-xs sm:max-w-2xl lg:max-w-3xl mx-auto leading-relaxed">
-            Select a subscription duration for your single device connection. All plans include full access to our premium features.
+            Selecteer een abonnementsduur voor jouw enkelvoudige apparaat verbinding. Alle plannen bevatten volledige toegang tot onze premium functies.
           </p>
           
           {/* Free Trial Button */}
@@ -80,7 +80,7 @@ export default function Pricing() {
               className="inline-flex items-center bg-primary-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-primary-700 transition-colors"
             >
               <Play className="w-5 h-5 mr-2" />
-              Start Free Trial
+              Start Gratis Proefperiode
             </a>
           </div>
         </div>
@@ -110,7 +110,7 @@ export default function Pricing() {
                   </h3>
                   <div className="flex items-center justify-center mb-3">
                     <Users className="w-4 h-4 text-primary-500 mr-1" />
-                    <span className="text-primary-500 font-semibold text-sm">1 Device</span>
+                    <span className="text-primary-500 font-semibold text-sm">1 Apparaat</span>
                   </div>
                   
                   {/* Pricing */}
@@ -119,7 +119,7 @@ export default function Pricing() {
                       <span className="text-gray-400 line-through text-sm">{plan.originalPrice}</span>
                       <span className="text-2xl sm:text-3xl font-black text-gray-800">{plan.price}</span>
                     </div>
-                    <div className="text-gray-600 text-xs">Save {plan.savings}</div>
+                    <div className="text-gray-600 text-xs">Bespaar {plan.savings}</div>
                   </div>
                 </div>
 
@@ -147,7 +147,7 @@ export default function Pricing() {
                     }`}
                   >
                     <Crown className="w-4 h-4 mr-1" />
-                    Buy Now
+                    Koop Nu
                   </a>
                 </div>
               </div>
@@ -158,7 +158,7 @@ export default function Pricing() {
         {/* Features Section */}
         <div className="bg-gray-50 rounded-2xl p-6 sm:p-8 mb-12">
           <h3 className="text-2xl font-bold text-gray-800 mb-6 text-center">
-            All Plans Include
+            Alle Plannen Bevatten
           </h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {features.map((feature, index) => (
@@ -179,10 +179,10 @@ export default function Pricing() {
             className="inline-flex items-center bg-blue-600 text-white px-6 py-3 rounded-lg text-base font-semibold hover:bg-blue-700 transition-colors"
           >
             <Users className="w-5 h-5 mr-2" />
-            Multi-Device Plans Available
+            Multi-Apparaat Plannen Beschikbaar
           </a>
           <p className="text-sm text-gray-600 mt-2">
-            Share with family • 2 or 3 devices • Starting at $19.79
+            Deel met familie • 2 of 3 apparaten • Vanaf €19.79
           </p>
         </div>
 
@@ -199,8 +199,8 @@ export default function Pricing() {
             <div className="flex justify-center mb-4 sm:mb-6">
               <div className="bg-gradient-to-r from-primary-700 to-primary-800 text-white px-4 sm:px-6 py-2 rounded-full text-xs sm:text-sm font-bold flex items-center shadow-lg border-2 border-white">
                 <Crown className="w-3 h-3 sm:w-4 sm:h-4 mr-2 animate-pulse" />
-                <span className="hidden sm:inline">✨ EXCLUSIVE PREMIUM LIFETIME OFFER ✨</span>
-                <span className="sm:hidden">✨ LIFETIME OFFER ✨</span>
+                <span className="hidden sm:inline">✨ EXCLUSIEF PREMIUM LEVENSLANG AANBOD ✨</span>
+                <span className="sm:hidden">✨ LEVENSLANG AANBOD ✨</span>
               </div>
             </div>
             
@@ -210,17 +210,17 @@ export default function Pricing() {
                 {/* Left: Title and Price */}
                 <div className="text-center lg:text-left text-white">
                   <h3 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold mb-3 sm:mb-4 bg-gradient-to-r from-white to-blue-100 bg-clip-text text-transparent drop-shadow-lg">
-                    Lifetime Access
+                    Levenslange Toegang
                   </h3>
                   
                   <div className="mb-3 sm:mb-4">
                     <div className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-white drop-shadow-xl">
-                      $289.99
+                      €289.99
                     </div>
                   </div>
                   
                   <div className="text-sm sm:text-lg lg:text-xl font-semibold text-secondary-100 mb-4 sm:mb-6">
-                    One-time payment<br />No monthly fees<br />Unlimited devices
+                    Eenmalige betaling<br />Geen maandelijkse kosten<br />Onbeperkte apparaten
                   </div>
 
                   {/* CTA Button */}
@@ -231,7 +231,7 @@ export default function Pricing() {
                     className="inline-flex items-center justify-center bg-white text-primary-500 px-6 sm:px-8 py-3 sm:py-4 rounded-xl text-lg sm:text-xl font-black hover:bg-gray-50 transition-all duration-300 transform hover:scale-105 shadow-2xl border-2 border-secondary-200 hover:border-secondary-300 group"
                   >
                     <Crown className="w-5 h-5 sm:w-6 sm:h-6 mr-2 group-hover:animate-spin" />
-                    CLAIM LIFETIME
+                    CLAIM LEVENSLANG
                   </a>
                 </div>
 
@@ -244,8 +244,8 @@ export default function Pricing() {
                           <Tv className="w-4 h-4 sm:w-5 sm:h-5 text-primary-500" />
                         </div>
                         <div>
-                          <div className="font-bold text-white text-sm sm:text-base">25,000+ Live Channels</div>
-                          <div className="text-secondary-100 text-xs sm:text-sm">Worldwide coverage</div>
+                          <div className="font-bold text-white text-sm sm:text-base">25.000+ Live Kanalen</div>
+                          <div className="text-secondary-100 text-xs sm:text-sm">Wereldwijde dekking</div>
                         </div>
                       </div>
                     </div>
@@ -256,8 +256,8 @@ export default function Pricing() {
                           <Star className="w-4 h-4 sm:w-5 sm:h-5 text-primary-500" />
                         </div>
                         <div>
-                          <div className="font-bold text-white text-sm sm:text-base">26,000+ Movies & Shows</div>
-                          <div className="text-secondary-100 text-xs sm:text-sm">Latest releases included</div>
+                          <div className="font-bold text-white text-sm sm:text-base">26.000+ Films & Series</div>
+                          <div className="text-secondary-100 text-xs sm:text-sm">Nieuwste releases inbegrepen</div>
                         </div>
                       </div>
                     </div>
@@ -268,8 +268,8 @@ export default function Pricing() {
                           <Zap className="w-4 h-4 sm:w-5 sm:h-5 text-primary-500" />
                         </div>
                         <div>
-                          <div className="font-bold text-white text-sm sm:text-base">Ultra HD & 4K Quality</div>
-                          <div className="text-secondary-100 text-xs sm:text-sm">Crystal clear streaming</div>
+                          <div className="font-bold text-white text-sm sm:text-base">Ultra HD & 4K Kwaliteit</div>
+                          <div className="text-secondary-100 text-xs sm:text-sm">Kristalheldere streaming</div>
                         </div>
                       </div>
                     </div>
@@ -280,8 +280,8 @@ export default function Pricing() {
                           <Users className="w-4 h-4 sm:w-5 sm:h-5 text-primary-500" />
                         </div>
                         <div>
-                          <div className="font-bold text-white text-sm sm:text-base">Unlimited Devices</div>
-                          <div className="text-secondary-100 text-xs sm:text-sm">Use on all your devices</div>
+                          <div className="font-bold text-white text-sm sm:text-base">Onbeperkte Apparaten</div>
+                          <div className="text-secondary-100 text-xs sm:text-sm">Gebruik op al je apparaten</div>
                         </div>
                       </div>
                     </div>
@@ -290,19 +290,19 @@ export default function Pricing() {
                   {/* Bottom text and trust indicators */}
                   <div className="mt-4 sm:mt-6 text-center">
                     <div className="text-secondary-100 text-sm sm:text-lg font-semibold mb-3 sm:mb-4">
-                      🔥 <span className="hidden sm:inline">Limited Time Offer • Save $1,000+ vs Monthly Plans</span>
-                      <span className="sm:hidden">Save $1,000+ vs Monthly Plans</span>
+                      🔥 <span className="hidden sm:inline">Beperkt Tijd Aanbod • Bespaar €1.000+ vs Maandelijkse Plannen</span>
+                      <span className="sm:hidden">Bespaar €1.000+ vs Maandelijkse Plannen</span>
                     </div>
                     
                     {/* Trust indicators */}
                     <div className="flex justify-center items-center space-x-4 sm:space-x-6 text-secondary-100">
                       <div className="flex items-center">
                         <Star className="w-3 h-3 sm:w-4 sm:h-4 mr-1 sm:mr-2 text-secondary-300" />
-                        <span className="text-xs sm:text-sm font-semibold">Premium Quality</span>
+                        <span className="text-xs sm:text-sm font-semibold">Premium Kwaliteit</span>
                       </div>
                       <div className="flex items-center">
                         <Shield className="w-3 h-3 sm:w-4 sm:h-4 mr-1 sm:mr-2 text-secondary-300" />
-                        <span className="text-xs sm:text-sm font-semibold">Secure Payment</span>
+                        <span className="text-xs sm:text-sm font-semibold">Veilige Betaling</span>
                       </div>
                       <div className="flex items-center">
                         <Crown className="w-3 h-3 sm:w-4 sm:h-4 mr-1 sm:mr-2 text-secondary-300" />
@@ -320,37 +320,37 @@ export default function Pricing() {
         <div className="mt-8 sm:mt-12 text-center">
           <div className="bg-gray-50 rounded-2xl p-6 sm:p-8 max-w-4xl mx-auto">
             <h3 className="text-xl sm:text-2xl font-bold text-gray-800 mb-4">
-              Why Choose IPTV Baba?
+              Waarom Kiezen Voor Super-IPTV?
             </h3>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6">
               <div className="text-center">
                 <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-3">
                   <Zap className="w-8 h-8 text-primary-500" />
                 </div>
-                <h4 className="font-semibold text-gray-800 mb-2">Instant Activation</h4>
-                <p className="text-sm text-gray-600">Get access within 5 minutes of purchase</p>
+                <h4 className="font-semibold text-gray-800 mb-2">Directe Activering</h4>
+                <p className="text-sm text-gray-600">Krijg toegang binnen 5 minuten na aankoop</p>
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-3">
                   <Shield className="w-8 h-8 text-primary-500" />
                 </div>
-                <h4 className="font-semibold text-gray-800 mb-2">Money Back Guarantee</h4>
-                <p className="text-sm text-gray-600">30-day risk-free trial period</p>
+                <h4 className="font-semibold text-gray-800 mb-2">Geld Terug Garantie</h4>
+                <p className="text-sm text-gray-600">30-dagen risicovrije proefperiode</p>
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 bg-secondary-100 rounded-full flex items-center justify-center mx-auto mb-3">
                   <Users className="w-8 h-8 text-secondary-500" />
                 </div>
-                <h4 className="font-semibold text-gray-800 mb-2">24/7 Support</h4>
-                <p className="text-sm text-gray-600">Premium customer support always available</p>
+                <h4 className="font-semibold text-gray-800 mb-2">24/7 Ondersteuning</h4>
+                <p className="text-sm text-gray-600">Premium klantenondersteuning altijd beschikbaar</p>
               </div>
             </div>
           </div>
         </div>
 
         <div className="mt-8 sm:mt-12 text-center text-gray-600 text-xs sm:text-sm">
-          <p>*All prices are in USD. Additional taxes may apply in some regions.</p>
-          <p className="hidden sm:block">Subscriptions will auto-renew unless cancelled. Lifetime plan is a one-time payment.</p>
+          <p>*Alle prijzen zijn in EUR. Extra belastingen kunnen van toepassing zijn in sommige regio's.</p>
+          <p className="hidden sm:block">Abonnementen vernieuwen automatisch tenzij geannuleerd. Levenslang plan is een eenmalige betaling.</p>
         </div>
       </div>
     </section>
