@@ -46,7 +46,12 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       { url: '/images/favicon.ico', type: 'image/x-icon' },
-      { url: '/images/favicon.ico', sizes: 'any' }
+      { url: '/images/favicon.ico', sizes: 'any' },
+      { url: '/favicon.svg', type: 'image/svg+xml' }
+    ],
+    shortcut: '/images/favicon.ico',
+    apple: [
+      { url: '/images/favicon.ico', sizes: '180x180', type: 'image/x-icon' }
     ]
   }
 }
@@ -59,9 +64,20 @@ export default function RootLayout({
   return (
     <html lang="nl">
       <head>
+        {/* Primary favicon */}
         <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
         <link rel="icon" href="/images/favicon.ico" sizes="any" />
         <link rel="shortcut icon" href="/images/favicon.ico" />
+        
+        {/* Modern favicon formats */}
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        
+        {/* Apple Touch Icon */}
+        <link rel="apple-touch-icon" href="/images/favicon.ico" />
+        
+        {/* Microsoft Tile */}
+        <meta name="msapplication-TileImage" content="/images/favicon.ico" />
+        <meta name="msapplication-TileColor" content="#DC2626" />
       </head>
       <body className={`${inter.className} overflow-x-hidden`}>
         {children}
