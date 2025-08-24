@@ -13,12 +13,12 @@ export default function Footer() {
             <div className="flex items-center mb-4 sm:mb-6">
               <div className="h-16 sm:h-20 relative">
                 <OptimizedImage
-                  src="/logo.webp" 
+                  src="/images/logo.webp" 
                   alt="Super-IPTV Logo" 
                   width={160}
                   height={48}
                   className="h-full w-auto object-contain"
-                  fallbackSrc="/logo.svg"
+                  fallbackSrc="/images/logo.webp"
                 />
               </div>
             </div>

@@ -14,7 +14,7 @@ export default function Header() {
           <div className="flex items-center">
             <div className="h-12 sm:h-14 lg:h-16 flex items-center relative">
               <img 
-                src="/logo.webp" 
+                src="/images/logo.webp" 
                 alt="Super-IPTV Logo" 
                 width="200"
                 height="60"
