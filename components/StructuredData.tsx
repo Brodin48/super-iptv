@@ -134,7 +134,7 @@ export default function StructuredData() {
     "@type": "Organization",
     "name": "Super-IPTV",
     "url": "https://super-iptv.nl",
-    "logo": "https://super-iptv.nl/images/logo.webp",
+    "logo": "https://super-iptv.nl/images/logo.svg",
     "description": "Premium Super-IPTV subscription service provider offering 25,000+ live channels and 26,000+ movies with HD & 4K quality.",
     "contactPoint": {
       "@type": "ContactPoint",

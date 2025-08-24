@@ -10,11 +10,11 @@ export default function Header() {
     <header className="bg-white shadow-lg sticky top-0 z-50">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-3 sm:py-4">
-          {/* Optimized Logo with Next.js Image */}
+          {/* SVG Logo */}
           <div className="flex items-center">
             <div className="h-12 sm:h-14 lg:h-16 flex items-center relative">
               <img 
-                src="/images/logo.webp" 
+                src="/images/logo.svg" 
                 alt="Super-IPTV Logo" 
                 width="200"
                 height="60"
