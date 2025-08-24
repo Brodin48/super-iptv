@@ -23,7 +23,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-gray-300 mb-4 sm:mb-6 text-sm sm:text-base">
-              Your trusted IPTV service provider since 2019. Experience premium streaming with 25,000+ live channels and 26,000+ on-demand content.
+              Jouw vertrouwde IPTV service provider sinds 2019. Ervaar premium streaming met 25.000+ live kanalen en 26.000+ on-demand content.
             </p>
             <div className="flex space-x-3 sm:space-x-4">
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
@@ -98,12 +98,12 @@ export default function Footer() {
         <div className="border-t border-gray-700 mt-8 sm:mt-12 pt-6 sm:pt-8">
           <div className="flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0">
             <p className="text-gray-400 text-center sm:text-left text-sm sm:text-base">
-              © 2024 Super-IPTV. All rights reserved.
+              © 2024 Super-IPTV. Alle rechten voorbehouden.
             </p>
             <div className="flex flex-wrap justify-center sm:justify-end space-x-4 sm:space-x-6 text-sm sm:text-base">
-              <a href="/privacy" className="text-gray-400 hover:text-white transition-colors">Privacy Policy</a>
-              <a href="/terms" className="text-gray-400 hover:text-white transition-colors">Terms of Service</a>
-              <a href="/refund" className="text-gray-400 hover:text-white transition-colors">Refund Policy</a>
+              <a href="/privacy" className="text-gray-400 hover:text-white transition-colors">Privacybeleid</a>
+              <a href="/terms" className="text-gray-400 hover:text-white transition-colors">Gebruiksvoorwaarden</a>
+              <a href="/refund" className="text-gray-400 hover:text-white transition-colors">Retourbeleid</a>
             </div>
           </div>
         </div>

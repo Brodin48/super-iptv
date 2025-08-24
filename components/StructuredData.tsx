@@ -5,7 +5,7 @@ export default function StructuredData() {
     "@context": "https://schema.org",
     "@type": "Service",
     "name": "Super-IPTV",
-    "description": "Premium Super-IPTV subscription service with 25,000+ live TV channels and 26,000+ movies. HD & 4K streaming quality.",
+    "description": "Premium Super-IPTV abonnement service met 25.000+ live TV kanalen en 26.000+ films. HD & 4K streaming kwaliteit.",
     "provider": {
       "@type": "Organization",
       "name": "Super-IPTV",
@@ -14,13 +14,13 @@ export default function StructuredData() {
     "areaServed": "Worldwide",
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
-      "name": "IPTV Baba Subscription Plans",
+      "name": "Super-IPTV Abonnement Plannen",
       "itemListElement": [
         {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
-            "name": "IPTV Baba 1 Month Plan"
+            "name": "Super-IPTV 1 Maand Plan"
           },
           "price": "10.99",
           "priceCurrency": "USD"

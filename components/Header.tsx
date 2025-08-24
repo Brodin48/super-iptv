@@ -47,19 +47,19 @@ export default function Header() {
               Home
             </a>
             <a href="/about" className="text-gray-700 hover:text-primary-600 font-medium transition-colors">
-              About
+              Over Ons
             </a>
             <a href="/blog" className="text-gray-700 hover:text-primary-600 font-medium transition-colors">
               Blog
             </a>
             <a href="#features" className="text-gray-700 hover:text-primary-600 font-medium transition-colors">
-              Features
+              Functies
             </a>
             <a href="/pricing" className="text-gray-700 hover:text-primary-600 font-medium transition-colors">
-              Pricing
+              Prijzen
             </a>
             <a href="/multi-connections" className="text-gray-700 hover:text-primary-600 font-medium transition-colors">
-              Multi-Device
+              Multi-Apparaat
             </a>
             <a href="#testimonials" className="text-gray-700 hover:text-primary-600 font-medium transition-colors">
               Reviews
@@ -72,7 +72,7 @@ export default function Header() {
           {/* CTA Button */}
           <div className="hidden sm:block">
             <button className="bg-primary-600 text-white px-4 sm:px-6 py-2 rounded-lg hover:bg-primary-700 transition-colors font-semibold text-sm sm:text-base">
-              Get Started
+              Aan de Slag
             </button>
           </div>
 
@@ -94,19 +94,19 @@ export default function Header() {
                 Home
               </a>
               <a href="/about" className="text-gray-700 hover:text-primary-600 font-medium py-2 px-2 rounded transition-colors">
-                About
+                Over Ons
               </a>
               <a href="/blog" className="text-gray-700 hover:text-primary-600 font-medium py-2 px-2 rounded transition-colors">
                 Blog
               </a>
               <a href="#features" className="text-gray-700 hover:text-primary-600 font-medium py-2 px-2 rounded transition-colors">
-                Features
+                Functies
               </a>
               <a href="/pricing" className="text-gray-700 hover:text-primary-600 font-medium py-2 px-2 rounded transition-colors">
-                Pricing
+                Prijzen
               </a>
               <a href="/multi-connections" className="text-gray-700 hover:text-primary-600 font-medium py-2 px-2 rounded transition-colors">
-                Multi-Device
+                Multi-Apparaat
               </a>
               <a href="#testimonials" className="text-gray-700 hover:text-primary-600 font-medium py-2 px-2 rounded transition-colors">
                 Reviews
@@ -116,7 +116,7 @@ export default function Header() {
               </a>
               <div className="pt-2">
                 <button className="bg-primary-600 text-white px-6 py-3 rounded-lg hover:bg-primary-700 transition-colors font-semibold w-full sm:w-auto">
-                  Get Started
+                  Aan de Slag
                 </button>
               </div>
             </nav>

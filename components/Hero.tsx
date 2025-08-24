@@ -55,10 +55,10 @@ export default function Hero() {
             Premium <span className="text-accent-400">Super-IPTV</span> Service
           </h1>
           <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-6 sm:mb-8 max-w-xs sm:max-w-2xl lg:max-w-3xl mx-auto leading-relaxed px-2">
-            Experience the best <strong>Super-IPTV</strong> service since 2019! Our premium <strong>IPTV subscription</strong> 
-            offers 25,000+ Live TV Channels & 26,000+ Movies/TV Shows. Get instant <strong>IPTV access</strong> 
-            <span className="hidden sm:inline"> with HD & 4K quality streaming. Join millions who trust Super-IPTV for ultimate entertainment.</span>
-            <span className="sm:hidden"> - your gateway to unlimited entertainment.</span>
+            Ervaar de beste <strong>Super-IPTV</strong> service sinds 2019! Ons premium <strong>IPTV abonnement</strong> 
+            biedt 25.000+ Live TV Kanalen & 26.000+ Films/TV Series. Krijg directe <strong>IPTV toegang</strong> 
+            <span className="hidden sm:inline"> met HD & 4K kwaliteit streaming. Sluit je aan bij miljoenen die Super-IPTV vertrouwen voor ultieme entertainment.</span>
+            <span className="sm:hidden"> - jouw poort naar onbeperkte entertainment.</span>
           </p>
           
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center mb-6 sm:mb-8 px-4">
@@ -69,13 +69,13 @@ export default function Hero() {
               className="bg-primary-600 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold hover:bg-primary-700 transition-colors flex items-center justify-center"
             >
               <Play className="w-4 h-4 sm:w-5 sm:h-5 mr-2" />
-              Start Free Trial
+              Start Gratis Proefperiode
             </a>
             <a 
               href="#pricing" 
               className="border-2 border-white text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold hover:bg-white hover:text-primary-800 transition-colors"
             >
-              View Pricing
+              Bekijk Prijzen
             </a>
           </div>
 
@@ -86,10 +86,10 @@ export default function Hero() {
               className="inline-flex items-center bg-green-600 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg text-sm sm:text-base font-semibold hover:bg-green-700 transition-colors"
             >
               <Users className="w-4 h-4 sm:w-5 sm:h-5 mr-2" />
-              Multi-Device Plans Available
+              Multi-Apparaat Abonnementen Beschikbaar
             </a>
             <p className="text-xs sm:text-sm mt-2 opacity-80">
-              Share with family • 2 or 3 devices • Premium plans
+              Deel met familie • 2 of 3 apparaten • Premium abonnementen
             </p>
           </div>
 
@@ -97,11 +97,11 @@ export default function Hero() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 lg:gap-8 max-w-xs sm:max-w-2xl lg:max-w-4xl mx-auto px-4">
             <div className="text-center bg-black bg-opacity-20 rounded-lg p-3 sm:p-4">
               <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-accent-400 mb-1 sm:mb-2">25K+</div>
-              <div className="text-xs sm:text-sm lg:text-base">Live TV Channels</div>
+              <div className="text-xs sm:text-sm lg:text-base">Live TV Kanalen</div>
             </div>
             <div className="text-center bg-black bg-opacity-20 rounded-lg p-3 sm:p-4">
               <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-accent-400 mb-1 sm:mb-2">26K+</div>
-              <div className="text-xs sm:text-sm lg:text-base">Movies & TV Shows</div>
+              <div className="text-xs sm:text-sm lg:text-base">Films & TV Series</div>
             </div>
             <div className="text-center bg-black bg-opacity-20 rounded-lg p-3 sm:p-4">
               <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-accent-400 mb-1 sm:mb-2">99.9%</div>
@@ -109,7 +109,7 @@ export default function Hero() {
             </div>
             <div className="text-center bg-black bg-opacity-20 rounded-lg p-3 sm:p-4">
               <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-accent-400 mb-1 sm:mb-2">24/7</div>
-              <div className="text-xs sm:text-sm lg:text-base">Premium Support</div>
+              <div className="text-xs sm:text-sm lg:text-base">Premium Ondersteuning</div>
             </div>
           </div>
         </div>

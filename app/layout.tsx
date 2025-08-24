@@ -13,24 +13,24 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  title: 'Super-IPTV - Premium IPTV Service | 25,000+ Channels | super-iptv.nl',
-  description: 'Experience premium Super-IPTV service with 25,000+ live channels & 26,000+ movies. Get instant IPTV access with HD/4K quality. Join millions who trust Super-IPTV for ultimate entertainment.',
-  keywords: 'Super-IPTV, super-iptv.nl, IPTV service, IPTV subscription, IPTV free trial, IPTV app, live tv, streaming, movies, sports channels',
+  title: 'Super-IPTV - Premium IPTV Service | 25.000+ Kanalen | super-iptv.nl',
+  description: 'Ervaar premium Super-IPTV service met 25.000+ live kanalen en 26.000+ films. Krijg directe IPTV toegang met HD/4K kwaliteit. Sluit je aan bij miljoenen die Super-IPTV vertrouwen voor ultieme entertainment.',
+  keywords: 'Super-IPTV, super-iptv.nl, IPTV service, IPTV abonnement, IPTV gratis proefperiode, IPTV app, live tv, streaming, films, sportkanalen, Nederlandse IPTV',
   verification: {
     google: 'V8NWMAKmJDsAejY_oVeKROeukdyIIg-ZqK1t096BMTA',
   },
   openGraph: {
     title: 'Super-IPTV - Premium IPTV Service',
-    description: 'Get Super-IPTV access with 25,000+ live TV channels and 26,000+ movies. Best IPTV subscription service.',
+    description: 'Krijg Super-IPTV toegang met 25.000+ live TV kanalen en 26.000+ films. Beste IPTV abonnement service.',
     url: 'https://super-iptv.nl',
     siteName: 'Super-IPTV',
-    locale: 'en_US',
+    locale: 'nl_NL',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Super-IPTV - Premium IPTV Subscription',
-    description: 'Get Super-IPTV access with 25,000+ channels. Best IPTV service.',
+    title: 'Super-IPTV - Premium IPTV Abonnement',
+    description: 'Krijg Super-IPTV toegang met 25.000+ kanalen. Beste IPTV service.',
   },
   robots: {
     index: true,
@@ -57,7 +57,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="nl">
       <head>
         <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
         <link rel="icon" href="/images/favicon.ico" sizes="any" />

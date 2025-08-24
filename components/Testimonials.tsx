@@ -30,43 +30,43 @@ export default function Testimonials() {
   const testimonials = [
     {
       name: "Michael Schmidt",
-      country: "Germany", 
+      country: "Duitsland", 
       rating: 5,
       color: "#4F46E5", // Blue
       avatar: "/images/avatars/michael.jpg",
-      text: "I ordered it at 11pm, they activated it in less than 5 minutes. No regrets, Great image quality, Fast and professional service. I highly recommend it."
+      text: "Ik bestelde het om 23:00, ze activeerden het in minder dan 5 minuten. Geen spijt, geweldige beeldkwaliteit, snelle en professionele service. Ik raad het ten zeerste aan."
     },
     {
       name: "Erik Larsson", 
-      country: "Norway",
+      country: "Noorwegen",
       rating: 5,
       color: "#06B6D4", // Cyan
       avatar: "/images/avatars/erik.jpg",
-      text: "Easy to set up, and convenient to use, super clear HD view and lots of European channels. IPTV folders are sorted elegantly. Keep up the good work!"
+      text: "Makkelijk in te stellen, en handig in gebruik, super heldere HD-weergave en veel Europese kanalen. IPTV-mappen zijn elegant gesorteerd. Ga zo door!"
     },
     {
       name: "Anna Andersson",
-      country: "Sweden", 
+      country: "Zweden", 
       rating: 5,
       color: "#EC4899", // Pink
       avatar: "/images/avatars/anna.jpg",
-      text: "This is the best Super-IPTV service, that I would recommend anyone to use. Staff are so friendly, Channels are working so great too."
+      text: "Dit is de beste Super-IPTV service, die ik iedereen zou aanbevelen. Het personeel is zo vriendelijk, kanalen werken ook zo goed."
     },
     {
       name: "Lars Hansen",
-      country: "Norway",
+      country: "Noorwegen",
       rating: 5,
       color: "#10B981", // Green
       avatar: "/images/avatars/lars.jpg",
-      text: "I was looking for a subscription and i have found Super-IPTV, the service was great and the iptv is very good, I liked the quality and all my favorite football channels are in."
+      text: "Ik was op zoek naar een abonnement en ik heb Super-IPTV gevonden, de service was geweldig en de iptv is erg goed, ik vond de kwaliteit leuk en al mijn favoriete voetbalkanalen zitten erin."
     },
     {
       name: "James Wilson",
-      country: "UK",
+      country: "VK",
       rating: 5,
       color: "#F59E0B", // Orange
       avatar: "/images/avatars/james.jpg",
-      text: "Very great channel selection and VOD's, my family is very happy with the service for the last 2 years. the technical support is very responsive and supportive."
+      text: "Zeer geweldige kanaalselectie en VOD's, mijn familie is erg blij met de service voor de afgelopen 2 jaar. de technische ondersteuning is zeer responsief en ondersteunend."
     },
     {
       name: "Sami Virtanen", 
@@ -74,7 +74,7 @@ export default function Testimonials() {
       rating: 5,
       color: "#8B5CF6", // Purple
       avatar: "/images/avatars/sami.jpg",
-      text: "I recommend this Super-IPTV Service for all those who love watching Soccer. FHD channels and real time live streaming that too at a great price tag, what else do we need?"
+      text: "Ik raad deze Super-IPTV Service aan voor iedereen die van voetbal kijken houdt. FHD-kanalen en realtime live streaming tegen een geweldige prijs, wat hebben we nog meer nodig?"
     }
   ]
 
@@ -84,15 +84,15 @@ export default function Testimonials() {
         <div className="text-center mb-12 sm:mb-16">
           <div className="flex items-center justify-center mb-4 sm:mb-6">
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mr-4">
-              What Our Customers Say
+              Wat Onze Klanten Zeggen
             </h2>
             <div className="h-8 sm:h-10 md:h-12 flex items-center text-yellow-500 text-2xl">
               ⭐⭐⭐⭐⭐
             </div>
           </div>
           <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-xs sm:max-w-2xl lg:max-w-3xl mx-auto leading-relaxed">
-            Don't just take our word for it. Here's what our satisfied customers 
-            from around the world have to say about our Super-IPTV service.
+            Geloof ons niet op ons woord. Hier is wat onze tevreden klanten 
+            van over de hele wereld te zeggen hebben over onze Super-IPTV service.
           </p>
         </div>
 
@@ -106,8 +106,8 @@ export default function Testimonials() {
                 </div>
               </div>
               <div className="text-left">
-                <div className="text-2xl font-bold text-gray-800">Excellent</div>
-                <div className="text-sm text-gray-600">Based on 1,250+ reviews</div>
+                <div className="text-2xl font-bold text-gray-800">Uitstekend</div>
+                <div className="text-sm text-gray-600">Gebaseerd op 1.250+ reviews</div>
               </div>
             </div>
             <div className="flex items-center text-green-600">
@@ -115,13 +115,13 @@ export default function Testimonials() {
                 <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
               </svg>
               <div className="text-left">
-                <div className="font-bold text-lg">Verified Reviews</div>
-                <div className="text-sm text-gray-600">From real customers</div>
+                <div className="font-bold text-lg">Geverifieerde Reviews</div>
+                <div className="text-sm text-gray-600">Van echte klanten</div>
               </div>
             </div>
             <div className="text-center">
               <div className="text-2xl font-bold text-gray-800">99.9%</div>
-              <div className="text-sm text-gray-600">Uptime Guarantee</div>
+              <div className="text-sm text-gray-600">Uptime Garantie</div>
             </div>
           </div>
         </div>
@@ -131,13 +131,13 @@ export default function Testimonials() {
           <div className="text-center mb-8 sm:mb-12">
             <div className="inline-flex items-center bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-semibold mb-4">
               <MessageCircle className="w-4 h-4 mr-2" />
-              Real WhatsApp Reviews
+              Echte WhatsApp Reviews
             </div>
             <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-800 mb-4">
-              Authentic Client <span className="text-primary-600">Conversations</span>
+              Authentieke Klant <span className="text-primary-600">Gesprekken</span>
             </h3>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              See what our real customers are saying about Super-IPTV through their actual WhatsApp messages.
+              Zie wat onze echte klanten zeggen over Super-IPTV via hun daadwerkelijke WhatsApp berichten.
             </p>
           </div>
 
@@ -186,10 +186,10 @@ export default function Testimonials() {
               className="inline-flex items-center bg-green-500 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-lg font-semibold hover:bg-green-600 transition-colors shadow-lg hover:shadow-xl"
             >
               <MessageCircle className="w-5 h-5 mr-2" />
-              Chat with Us on WhatsApp
+              Chat Met Ons Op WhatsApp
             </a>
             <p className="text-gray-600 text-sm mt-3">
-              Join thousands of satisfied customers! Get instant support and activation.
+              Sluit je aan bij duizenden tevreden klanten! Krijg directe ondersteuning en activering.
             </p>
           </div>
         </div>
@@ -197,10 +197,10 @@ export default function Testimonials() {
         {/* Traditional Testimonials Section */}
         <div className="text-center mb-8 sm:mb-12">
           <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-800 mb-4">
-            Customer <span className="text-primary-600">Reviews</span>
+            Klanten <span className="text-primary-600">Reviews</span>
           </h3>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Hear from our satisfied customers across the globe about their Super-IPTV experience.
+            Hoor van onze tevreden klanten over de hele wereld over hun Super-IPTV ervaring.
           </p>
         </div>
 
@@ -260,13 +260,13 @@ export default function Testimonials() {
               
               <div className="flex items-center justify-between pt-4 border-t border-gray-100">
                 <div className="text-xs sm:text-sm text-gray-500">
-                  Verified Customer
+                  Geverifieerde Klant
                 </div>
                 <div className="flex items-center text-green-600">
                   <svg className="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
                   </svg>
-                  <span className="text-xs sm:text-sm font-medium">Verified</span>
+                  <span className="text-xs sm:text-sm font-medium">Geverifieerd</span>
                 </div>
               </div>
             </div>

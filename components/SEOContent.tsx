@@ -8,12 +8,12 @@ export default function SEOContent() {
           {/* Main SEO Content */}
           <div className="text-center mb-12">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 mb-6">
-              The Ultimate <span className="text-primary-600">Super-IPTV</span> Experience
+              De Ultieme <span className="text-primary-600">Super-IPTV</span> Ervaring
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Discover why millions choose <strong>Super-IPTV</strong> as their preferred streaming solution. 
-              Our premium <strong>IPTV subscription</strong> offers unmatched quality, reliability, 
-              and value for your entertainment needs.
+              Ontdek waarom miljoenen <strong>Super-IPTV</strong> kiezen als hun favoriete streaming oplossing. 
+              Ons premium <strong>IPTV abonnement</strong> biedt ongeëvenaarde kwaliteit, betrouwbaarheid, 
+              en waarde voor jouw entertainment behoeften.
             </p>
           </div>
 
@@ -22,69 +22,69 @@ export default function SEOContent() {
             <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-xl">
               <div className="flex items-center mb-4">
                 <CheckCircle className="w-6 h-6 text-blue-600 mr-3" />
-                <h3 className="text-xl font-semibold text-gray-800">Premium IPTV Quality</h3>
+                <h3 className="text-xl font-semibold text-gray-800">Premium IPTV Kwaliteit</h3>
               </div>
               <p className="text-gray-600">
-                Experience crystal-clear HD and 4K streaming with our premium <strong>Super-IPTV</strong> service. 
-                Our advanced servers ensure your <strong>IPTV</strong> experience is always smooth and buffer-free.
+                Ervaar kristalheldere HD en 4K streaming met onze premium <strong>Super-IPTV</strong> service. 
+                Onze geavanceerde servers zorgen ervoor dat jouw <strong>IPTV</strong> ervaring altijd vloeiend en buffervrij is.
               </p>
             </div>
 
             <div className="bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-xl">
               <div className="flex items-center mb-4">
                 <Star className="w-6 h-6 text-green-600 mr-3" />
-                <h3 className="text-xl font-semibold text-gray-800">Trusted IPTV Provider</h3>
+                <h3 className="text-xl font-semibold text-gray-800">Vertrouwde IPTV Provider</h3>
               </div>
               <p className="text-gray-600">
-                Since 2019, <strong>Super-IPTV</strong> has been the go-to choice for streaming enthusiasts. 
-                Join thousands of satisfied customers who rely on our <strong>IPTV</strong> service daily.
+                Sinds 2019 is <strong>Super-IPTV</strong> de go-to keuze voor streaming liefhebbers. 
+                Sluit je aan bij duizenden tevreden klanten die dagelijks vertrouwen op onze <strong>IPTV</strong> service.
               </p>
             </div>
 
             <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-6 rounded-xl">
               <div className="flex items-center mb-4">
                 <Zap className="w-6 h-6 text-purple-600 mr-3" />
-                <h3 className="text-xl font-semibold text-gray-800">Fast IPTV Setup</h3>
+                <h3 className="text-xl font-semibold text-gray-800">Snelle IPTV Setup</h3>
               </div>
               <p className="text-gray-600">
-                Get your <strong>IPTV</strong> subscription activated instantly. Our quick setup process 
-                means you can start enjoying <strong>IPTV</strong> content within minutes of purchase.
+                Krijg jouw <strong>IPTV</strong> abonnement direct geactiveerd. Ons snelle setup proces 
+                betekent dat je binnen minuten na aankoop kunt genieten van <strong>IPTV</strong> content.
               </p>
             </div>
 
             <div className="bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-xl">
               <div className="flex items-center mb-4">
                 <Shield className="w-6 h-6 text-green-600 mr-3" />
-                <h3 className="text-xl font-semibold text-gray-800">Secure IPTV Access</h3>
+                <h3 className="text-xl font-semibold text-gray-800">Veilige IPTV Toegang</h3>
               </div>
               <p className="text-gray-600">
-                Your <strong>IPTV</strong> subscription is protected with enterprise-grade security. 
-                Enjoy peace of mind with our reliable and secure <strong>IPTV</strong> platform.
+                Jouw <strong>IPTV</strong> abonnement is beschermd met enterprise-grade beveiliging. 
+                Geniet van gemoedsrust met ons betrouwbare en veilige <strong>IPTV</strong> platform.
               </p>
             </div>
           </div>
 
-          {/* Why Choose IPTV Baba */}
+          {/* Why Choose Super-IPTV */}
           <div className="bg-gray-50 p-8 rounded-xl">
             <h3 className="text-2xl font-bold text-gray-800 mb-6 text-center">
-              Why <span className="text-primary-600">Super-IPTV</span> is Your Best Choice
+              Waarom <span className="text-primary-600">Super-IPTV</span> Jouw Beste Keuze Is
             </h3>
             <div className="prose prose-lg max-w-none text-gray-600">
               <p className="mb-4">
-                When you choose <strong>Super-IPTV</strong>, you're choosing excellence in streaming entertainment. 
-                Our <strong>IPTV</strong> service stands out from the competition with over 25,000 live TV channels, 
-                26,000+ movies and TV shows, all delivered in stunning HD and 4K quality.
+                Wanneer je <strong>Super-IPTV</strong> kiest, kies je voor excellentie in streaming entertainment. 
+                Onze <strong>IPTV</strong> service onderscheidt zich van de concurrentie met meer dan 25.000 live TV kanalen, 
+                26.000+ films en TV series, allemaal geleverd in prachtige HD en 4K kwaliteit.
               </p>
               <p className="mb-4">
-                What makes <strong>Super-IPTV</strong> special is our commitment to reliability and customer satisfaction. 
-                Our <strong>IPTV</strong> platform works seamlessly across all devices - Smart TVs, Android boxes, 
-                iOS devices, computers, and more. With 99.9% uptime and 24/7 premium support, your <strong>IPTV</strong> 
-                experience is always guaranteed to be exceptional.
+                Wat <strong>Super-IPTV</strong> speciaal maakt is onze toewijding aan betrouwbaarheid en klanttevredenheid. 
+                Ons <strong>IPTV</strong> platform werkt naadloos op alle apparaten - Smart TV's, Android boxes, 
+                iOS apparaten, computers, en meer. Met 99.9% uptime en 24/7 premium ondersteuning is jouw <strong>IPTV</strong> 
+                ervaring altijd gegarandeerd uitzonderlijk.
               </p>
               <p>
-                Don't settle for ordinary streaming services. Upgrade to <strong>Super-IPTV</strong> today and discover 
-                why we're the preferred choice for premium entertainment worldwide. Get your <strong>IPTV</strong> 
-                subscription now and transform your viewing experience forever.
+                Neem geen genoegen met gewone streaming services. Upgrade vandaag naar <strong>Super-IPTV</strong> en ontdek 
+                waarom wij de voorkeurskeuze zijn voor premium entertainment wereldwijd. Neem nu jouw <strong>IPTV</strong> 
+                abonnement en transformeer jouw kijkervaring voor altijd.
               </p>
             </div>
           </div>
