@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "public": true,
+  "rewrites": [
+    {
+      "source": "/sitemap.xml",
+      "destination": "/sitemap.xml"
+    },
+    {
+      "source": "/sitemap-pages.xml",
+      "destination": "/sitemap-pages.xml"
+    },
+    {
+      "source": "/sitemap-posts.xml", 
+      "destination": "/sitemap-posts.xml"
+    },
+    {
+      "source": "/sitemap_index.xml",
+      "destination": "/sitemap_index.xml"
+    },
+    {
+      "source": "/robots.txt",
+      "destination": "/robots.txt"
+    }
+  ]
+}
