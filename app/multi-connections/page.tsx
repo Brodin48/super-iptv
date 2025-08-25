@@ -115,15 +115,15 @@ export default function MultiConnectionsPage() {
             </div>
           </div>
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-            IPTV Baba <span className="text-orange-300">Multi-Device</span> Plans
+            Super IPTV <span className="text-orange-300">Multi-Device</span> Plans
           </h1>
           <p className="text-lg sm:text-xl lg:text-2xl mb-8 max-w-4xl mx-auto leading-relaxed opacity-90">
-            Connect up to 3 devices simultaneously and share your IPTV Baba subscription with family members. 
+            Connect up to 3 devices simultaneously and share your Super IPTV subscription with family members. 
             Perfect for couples and families that need multiple connections.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
-              href="https://wa.link/bof0mw" 
+              href="https://wa.me/13237044063" 
               target="_blank" 
               rel="noopener noreferrer"
               className="bg-white text-primary-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-50 transition-colors flex items-center justify-center"
@@ -330,7 +330,7 @@ export default function MultiConnectionsPage() {
       <section className="py-16 bg-gradient-to-r from-primary-600 via-primary-700 to-primary-800 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl sm:text-4xl font-bold mb-6">
-            Ready to Share IPTV Baba with Your Family?
+            Ready to Share Super IPTV with Your Family?
           </h2>
           <p className="text-lg mb-8 opacity-90 max-w-3xl mx-auto">
             Get instant activation and start streaming on multiple devices today. Our team is ready to help you choose the perfect plan.

@@ -34,7 +34,7 @@ export default function FreeTrialPage() {
             {/* Main CTA */}
             <div className="mb-12">
               <a 
-                href="https://wa.link/bof0mw" 
+                href="https://wa.me/13237044063" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-flex items-center bg-green-600 hover:bg-green-700 text-white px-8 sm:px-12 py-4 sm:py-6 text-lg sm:text-xl font-bold rounded-xl shadow-2xl transform hover:scale-105 transition-all duration-300"
@@ -178,7 +178,7 @@ export default function FreeTrialPage() {
           {/* Second CTA */}
           <div className="text-center mt-12 sm:mt-16">
             <a 
-              href="https://wa.link/bof0mw" 
+              href="https://wa.me/13237044063" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center bg-primary-600 hover:bg-primary-700 text-white px-8 sm:px-12 py-4 sm:py-6 text-lg sm:text-xl font-bold rounded-xl shadow-xl transform hover:scale-105 transition-all duration-300"
@@ -255,7 +255,7 @@ export default function FreeTrialPage() {
             </p>
             
             <a 
-              href="https://wa.link/bof0mw" 
+              href="https://wa.me/13237044063" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center bg-green-600 hover:bg-green-700 text-white px-8 sm:px-12 py-4 sm:py-6 text-lg sm:text-xl font-bold rounded-xl shadow-2xl transform hover:scale-105 transition-all duration-300 mb-8"

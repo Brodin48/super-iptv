@@ -44,7 +44,7 @@ export default function ChannelLogosCarousel() {
     <section className="py-12 sm:py-16 bg-gray-50">
       <div className="container mx-auto px-4">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-gray-800 mb-8 sm:mb-12">
-          Available on 25,000+ Premium Channels
+          Beschikbaar op 25.000+ Premium Kanalen
         </h2>
         
         {/* Infinite scrolling logos container */}
@@ -63,7 +63,7 @@ export default function ChannelLogosCarousel() {
         </div>
         
         <p className="text-center text-gray-600 mt-6 sm:mt-8 text-sm sm:text-base lg:text-lg">
-          Stream from top networks worldwide with your IPTV Baba subscription
+          Stream van topnetwerken wereldwijd met uw Super IPTV abonnement
         </p>
       </div>
     </section>

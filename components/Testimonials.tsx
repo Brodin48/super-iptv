@@ -180,7 +180,7 @@ export default function Testimonials() {
           {/* WhatsApp CTA */}
           <div className="text-center">
             <a 
-              href="https://wa.link/bof0mw" 
+              href="https://wa.me/13237044063" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center bg-green-500 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-lg font-semibold hover:bg-green-600 transition-colors shadow-lg hover:shadow-xl"

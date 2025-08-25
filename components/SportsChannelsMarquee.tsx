@@ -146,7 +146,7 @@ export default function SportsChannelsMarquee() {
         {/* CTA Section */}
         <div className="mt-8 sm:mt-12 text-center">
           <a 
-            href="https://wa.link/bof0mw" 
+            href="https://wa.me/13237044063" 
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-flex items-center bg-primary-600 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold hover:bg-primary-700 transition-colors shadow-lg hover:shadow-xl"

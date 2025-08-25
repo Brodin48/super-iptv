@@ -3,6 +3,8 @@ import Hero from '../components/Hero'
 import ChannelLogosCarousel from '../components/ChannelLogosCarousel'
 import SportsChannelsMarquee from '../components/SportsChannelsMarquee'
 import MoviesCarousel from '../components/MoviesCarousel'
+import DevicesSection from '../components/DevicesSection'
+import SportsLeaguesSection from '../components/SportsLeaguesSection'
 import Features from '../components/Features'
 import SEOContent from '../components/SEOContent'
 import Pricing from '../components/Pricing'
@@ -20,6 +22,8 @@ export default function Home() {
       <SportsChannelsMarquee />
       <MoviesCarousel />
       <Pricing />
+      <SportsLeaguesSection />
+      <DevicesSection />
       <Features />
       <SEOContent />
       <Testimonials />

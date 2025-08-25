@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header Background Comparison - Super IPTV</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    <div class="p-8">
+        <h1 class="text-3xl font-bold mb-8 text-center">Header Background Comparison</h1>
+        
+        <!-- Before: White Header -->
+        <div class="mb-8">
+            <h2 class="text-xl font-semibold mb-4">❌ Before: White Background (No Contrast)</h2>
+            <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+                <header class="bg-white shadow-sm border-b border-gray-100">
+                    <div class="max-w-7xl mx-auto px-4 py-4">
+                        <div class="flex justify-between items-center">
+                            <div class="flex items-center space-x-8">
+                                <div class="text-xl font-bold">SUPER-IPTV</div>
+                                <nav class="flex space-x-6">
+                                    <a href="#" class="text-gray-700">Home</a>
+                                    <a href="#" class="text-gray-700">Over Ons</a>
+                                    <a href="#" class="text-gray-700">Blog</a>
+                                </nav>
+                            </div>
+                            <button class="bg-blue-600 text-white px-6 py-2 rounded-full">Aan de Slag</button>
+                        </div>
+                    </div>
+                </header>
+                <div class="p-8 bg-gray-50">
+                    <p class="text-gray-600">Header blends with white content - no visual separation</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- After: Gradient Header -->
+        <div class="mb-8">
+            <h2 class="text-xl font-semibold mb-4">✅ After: Gradient Background (Strong Contrast)</h2>
+            <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+                <header class="bg-gradient-to-r from-red-600 via-purple-600 to-blue-600 shadow-2xl border-b-2 border-purple-800">
+                    <div class="max-w-7xl mx-auto px-4 py-4">
+                        <div class="flex justify-between items-center">
+                            <div class="flex items-center space-x-8">
+                                <div class="text-xl font-bold text-white">SUPER-IPTV</div>
+                                <nav class="flex space-x-6">
+                                    <a href="#" class="text-white hover:text-blue-200">Home</a>
+                                    <a href="#" class="text-white hover:text-blue-200">Over Ons</a>
+                                    <a href="#" class="text-white hover:text-blue-200">Blog</a>
+                                </nav>
+                            </div>
+                            <button class="bg-white text-blue-700 px-6 py-2 rounded-full font-semibold shadow-md">Aan de Slag</button>
+                        </div>
+                    </div>
+                </header>
+                <div class="p-8 bg-gray-50">
+                    <p class="text-gray-600">Header stands out with vibrant gradient - clear visual hierarchy</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Features -->
+        <div class="bg-white rounded-lg shadow-md p-6">
+            <h2 class="text-xl font-semibold mb-4">🎨 New Header Features:</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="flex items-start">
+                    <span class="text-2xl mr-3">🌈</span>
+                    <div>
+                        <h3 class="font-semibold">Gradient Background</h3>
+                        <p class="text-gray-600 text-sm">Red → Purple → Blue gradient matching brand colors</p>
+                    </div>
+                </div>
+                <div class="flex items-start">
+                    <span class="text-2xl mr-3">👁️</span>
+                    <div>
+                        <h3 class="font-semibold">High Contrast</h3>
+                        <p class="text-gray-600 text-sm">White text on colored background for readability</p>
+                    </div>
+                </div>
+                <div class="flex items-start">
+                    <span class="text-2xl mr-3">🎯</span>
+                    <div>
+                        <h3 class="font-semibold">CTA Button</h3>
+                        <p class="text-gray-600 text-sm">White button pops against gradient background</p>
+                    </div>
+                </div>
+                <div class="flex items-start">
+                    <span class="text-2xl mr-3">💪</span>
+                    <div>
+                        <h3 class="font-semibold">Strong Presence</h3>
+                        <p class="text-gray-600 text-sm">Header now has visual weight and importance</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

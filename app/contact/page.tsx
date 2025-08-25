@@ -21,7 +21,7 @@ export default function Contact() {
       title: "WhatsApp Ondersteuning",
       description: "Krijg directe hulp met jouw IPTV abonnement",
       contact: "+1 (323) 704‑4063",
-      link: "https://wa.link/bof0mw",
+      link: "https://wa.me/13237044063",
       available: "24/7 Beschikbaar",
       primary: true
     },
@@ -82,7 +82,7 @@ export default function Contact() {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a 
-              href="https://wa.link/bof0mw"
+              href="https://wa.me/13237044063"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors inline-flex items-center gap-2"
@@ -109,7 +109,7 @@ export default function Contact() {
               Choose Your Preferred Contact Method
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We're here to help you get the most out of your IPTV Baba service. 
+              We're here to help you get the most out of your Super IPTV service. 
               Choose the contact method that works best for you.
             </p>
           </div>
@@ -275,12 +275,12 @@ export default function Contact() {
             Ready to Experience Premium IPTV?
           </h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
-            Join thousands of satisfied customers enjoying crystal-clear streaming with IPTV Baba. 
+            Join thousands of satisfied customers enjoying crystal-clear streaming with Super IPTV. 
             Contact us now for instant activation!
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a 
-              href="https://wa.link/bof0mw" 
+              href="https://wa.me/13237044063" 
               target="_blank" 
               rel="noopener noreferrer"
               className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors inline-flex items-center gap-2"

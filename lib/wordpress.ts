@@ -1,4 +1,4 @@
-// WordPress API configuration for IPTV Baba
+// WordPress API configuration for Super IPTV
 const WORDPRESS_API_URL = 'https://blog.iptvbaba.com/wp-json/wp/v2'
 
 export interface WordPressPost {
@@ -195,7 +195,7 @@ export function getFeaturedImageUrl(post: WordPressPost, size: 'thumbnail' | 'me
   const featuredMedia = post._embedded?.['wp:featuredmedia']?.[0]
   
   if (!featuredMedia) {
-    return '/images/logo.webp' // Default IPTV Baba logo
+    return '/images/logo.webp' // Default Super IPTV logo
   }
 
   // Try to get the requested size

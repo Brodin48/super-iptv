@@ -29,7 +29,7 @@ export default function StructuredData() {
           "@type": "Offer", 
           "itemOffered": {
             "@type": "Service",
-            "name": "IPTV Baba 3 Months Plan"
+            "name": "Super IPTV 3 Months Plan"
           },
           "price": "24.99",
           "priceCurrency": "USD"
@@ -38,7 +38,7 @@ export default function StructuredData() {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service", 
-            "name": "IPTV Baba 6 Months Plan"
+            "name": "Super IPTV 6 Months Plan"
           },
           "price": "39.99",
           "priceCurrency": "USD"
@@ -47,7 +47,7 @@ export default function StructuredData() {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
-            "name": "IPTV Baba 12 Months Plan"
+            "name": "Super IPTV 12 Months Plan"
           },
           "price": "69.99", 
           "priceCurrency": "USD"
@@ -56,7 +56,7 @@ export default function StructuredData() {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
-            "name": "IPTV Baba Lifetime Access"
+            "name": "Super IPTV Lifetime Access"
           },
           "price": "199",
           "priceCurrency": "USD"
@@ -65,7 +65,7 @@ export default function StructuredData() {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
-            "name": "IPTV Baba 2 Devices - 1 Month"
+            "name": "Super IPTV 2 Devices - 1 Month"
           },
           "price": "19.79",
           "priceCurrency": "USD"
@@ -74,7 +74,7 @@ export default function StructuredData() {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
-            "name": "IPTV Baba 2 Devices - 12 Months"
+            "name": "Super IPTV 2 Devices - 12 Months"
           },
           "price": "89.99",
           "priceCurrency": "USD"
@@ -83,7 +83,7 @@ export default function StructuredData() {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
-            "name": "IPTV Baba 3 Devices - 1 Month"
+            "name": "Super IPTV 3 Devices - 1 Month"
           },
           "price": "29.68",
           "priceCurrency": "USD"
@@ -92,7 +92,7 @@ export default function StructuredData() {
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
-            "name": "IPTV Baba 3 Devices - 12 Months"
+            "name": "Super IPTV 3 Devices - 12 Months"
           },
           "price": "134.98",
           "priceCurrency": "USD"

@@ -7,7 +7,6 @@ export default function MoviesCarousel() {
     '/images/movies carousel /2.png',
     '/images/movies carousel /2 2.png',
     '/images/movies carousel /3.png',
-    '/images/movies carousel /3 2.png',
     '/images/movies carousel /4.png',
     '/images/movies carousel /5.png',
     '/images/movies carousel /6.png',
@@ -82,7 +81,7 @@ export default function MoviesCarousel() {
     <section className="py-12 sm:py-16 bg-dark-800 text-white">
       <div className="container mx-auto px-4">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-8 sm:mb-12">
-          26,000+ Movies & TV Shows Available
+          26.000+ Films & TV-Shows Beschikbaar
         </h2>
         
         {/* Infinite scrolling movies container */}
@@ -106,7 +105,7 @@ export default function MoviesCarousel() {
         </div>
         
         <p className="text-center text-gray-300 mt-6 sm:mt-8 text-sm sm:text-base lg:text-lg">
-          Enjoy the latest movies and TV shows with your IPTV Baba subscription
+          Geniet van de nieuwste films en TV-shows met uw Super IPTV abonnement
         </p>
       </div>
     </section>

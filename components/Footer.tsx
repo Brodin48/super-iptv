@@ -82,7 +82,7 @@ export default function Footer() {
               </li>
               <li className="text-gray-300 flex items-center">
                 <Phone className="w-4 h-4 mr-2 sm:mr-3 text-accent-400 flex-shrink-0" />
-                <a href="https://wa.link/bof0mw" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+                <a href="https://wa.me/13237044063" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
                   WhatsApp Support
                 </a>
               </li>

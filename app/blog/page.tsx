@@ -6,11 +6,11 @@ import { BookOpen, TrendingUp, ExternalLink } from 'lucide-react'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'IPTV Baba Blog - Latest IPTV News, Guides & Updates',
-  description: 'Stay updated with the latest IPTV news, streaming guides, setup tutorials, and expert tips from IPTV Baba.',
-  keywords: 'IPTV blog, IPTV news, IPTV guides, streaming tutorials, IPTV Baba blog, IPTV tips',
+  title: 'Super IPTV Blog - Latest IPTV News, Guides & Updates',
+  description: 'Stay updated with the latest IPTV news, streaming guides, setup tutorials, and expert tips from Super IPTV.',
+  keywords: 'IPTV blog, IPTV news, IPTV guides, streaming tutorials, Super IPTV blog, IPTV tips',
   openGraph: {
-    title: 'IPTV Baba Blog - Your Source for IPTV Knowledge',
+    title: 'Super IPTV Blog - Your Source for IPTV Knowledge',
     description: 'Expert guides, news, and tutorials about IPTV streaming technology.',
     images: ['/images/logo.webp'],
   }
@@ -30,7 +30,7 @@ export default function Blog() {
               Knowledge Hub
             </div>
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              IPTV Baba <span className="text-yellow-400">Blog</span>
+              Super IPTV <span className="text-yellow-400">Blog</span>
             </h1>
             <p className="text-xl md:text-2xl mb-8 leading-relaxed">
               Your ultimate resource for IPTV guides, streaming tips, technology updates, 
@@ -177,7 +177,7 @@ export default function Blog() {
                     Comprehensive IPTV Review
                   </h3>
                   <p className="text-gray-600 mb-3">
-                    In-depth analysis of IPTV Baba's features, performance, and value proposition.
+                    In-depth analysis of Super IPTV's features, performance, and value proposition.
                   </p>
                   <span className="text-primary-600 font-semibold">
                     Read Review →
@@ -223,7 +223,7 @@ export default function Blog() {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a 
-              href="https://wa.link/bof0mw" 
+              href="https://wa.me/13237044063" 
               target="_blank" 
               rel="noopener noreferrer"
               className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors inline-flex items-center gap-2"

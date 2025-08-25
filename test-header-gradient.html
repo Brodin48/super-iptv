@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header Gradient Test - Super IPTV</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+        }
+        
+        /* Gradient Background Test */
+        .gradient-wrapper {
+            position: relative;
+            padding: 20px;
+            margin-bottom: 40px;
+        }
+        
+        .gradient-bg {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to right, #AE1C28 0%, #AE1C28 42%, #6B2B5F 50%, #21468B 58%, #21468B 100%);
+        }
+        
+        .header-content {
+            position: relative;
+            background: white;
+            margin: 0 32px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .logo-nav-group {
+            display: flex;
+            align-items: center;
+            gap: 12px; /* Very close spacing */
+        }
+        
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #AE1C28;
+            margin-right: 8px;
+        }
+        
+        nav {
+            display: flex;
+            gap: 24px;
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+        }
+        
+        nav a:hover {
+            color: #AE1C28;
+        }
+        
+        .preview-note {
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            margin: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        h2 {
+            margin-bottom: 10px;
+            color: #333;
+        }
+        
+        .color-info {
+            display: flex;
+            gap: 20px;
+            margin-top: 10px;
+        }
+        
+        .color-box {
+            padding: 10px 20px;
+            border-radius: 4px;
+            color: white;
+            font-weight: bold;
+        }
+        
+        .red { background: #AE1C28; }
+        .purple { background: #6B2B5F; }
+        .blue { background: #21468B; }
+    </style>
+</head>
+<body>
+    <div class="preview-note">
+        <h2>Header Gradient Preview</h2>
+        <p>The gradient now gives equal space to red and blue, meeting in the middle with a purple blend.</p>
+        <div class="color-info">
+            <div class="color-box red">Red: 0-42%</div>
+            <div class="color-box purple">Purple Blend: 42-58%</div>
+            <div class="color-box blue">Blue: 58-100%</div>
+        </div>
+    </div>
+    
+    <div class="gradient-wrapper">
+        <div class="gradient-bg"></div>
+        <div class="header-content">
+            <div class="logo-nav-group">
+                <div class="logo">SUPER-IPTV</div>
+                <nav>
+                    <a href="#">Home</a>
+                    <a href="#">Over Ons</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Prijzen</a>
+                    <a href="#">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+    
+    <div class="preview-note">
+        <h2>Logo Position</h2>
+        <p>The logo is now positioned very close to the HOME navigation item with minimal spacing (12px gap).</p>
+    </div>
+</body>
+</html>

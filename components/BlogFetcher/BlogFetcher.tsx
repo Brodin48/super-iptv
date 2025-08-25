@@ -124,7 +124,7 @@ export default function BlogFetcher() {
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
       {posts.map((post) => {
         const featuredImage = post._embedded?.['wp:featuredmedia']?.[0]?.source_url || '/images/logo.webp'
-        const authorName = post._embedded?.author?.[0]?.name || 'IPTV Baba Team'
+        const authorName = post._embedded?.author?.[0]?.name || 'Super IPTV Team'
         
         return (
           <article key={post.id} className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all hover:scale-105">

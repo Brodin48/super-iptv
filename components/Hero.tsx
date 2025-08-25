@@ -8,7 +8,7 @@ export default function Hero() {
   return (
     <section 
       id="home" 
-      className="relative text-white overflow-hidden min-h-screen flex items-center hero-section"
+      className="relative text-white overflow-hidden min-h-screen flex items-center hero-section pt-24"
     >
       {/* Video-First Background Strategy */}
       <div className="absolute inset-0 bg-gray-900">
@@ -63,7 +63,7 @@ export default function Hero() {
           
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center mb-6 sm:mb-8 px-4">
             <a 
-              href="https://wa.link/bof0mw" 
+              href="https://wa.me/13237044063" 
               target="_blank" 
               rel="noopener noreferrer"
               className="bg-primary-600 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold hover:bg-primary-700 transition-colors flex items-center justify-center"
