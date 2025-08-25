@@ -1,4 +1,3 @@
-import TopHeader from '../components/TopHeader'
 import Header from '../components/Header'
 import Hero from '../components/Hero'
 import ChannelLogosCarousel from '../components/ChannelLogosCarousel'
@@ -15,7 +14,6 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       <StructuredData />
-      <TopHeader />
       <Header />
       <Hero />
       <ChannelLogosCarousel />
