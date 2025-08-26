@@ -109,21 +109,6 @@ export default function SportsChannelsMarquee() {
           </div>
         </div>
 
-        {/* Scrolling Sports Logos - Moving Left (Reverse) */}
-        <div className="relative overflow-hidden">
-          <div className="flex space-x-4 sm:space-x-6" style={{ animation: 'scroll-infinite 15s linear infinite reverse' }}>
-            {/* First set of logos (reversed order) */}
-            {[...sportsLogos].reverse().map((logo, index) => (
-              <SportsLogo key={`third-${index}`} logo={logo} index={index} keyPrefix="third" />
-            ))}
-            
-            {/* Duplicate set for seamless loop */}
-            {[...sportsLogos].reverse().map((logo, index) => (
-              <SportsLogo key={`fourth-${index}`} logo={logo} index={index} keyPrefix="fourth" />
-            ))}
-          </div>
-        </div>
-
         {/* Popular Sports List */}
         <div className="mt-8 sm:mt-12 text-center">
           <h3 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6">
