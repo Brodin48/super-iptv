@@ -1,4 +1,4 @@
 // Force deploy - Remove authentication protection
-// Deployment timestamp: $(date +%s)
-// Updated: August 21, 2025
+// Deployment timestamp: 1724686800
+// Updated: August 26, 2025 - Triggering fresh deployment
 // Status: Removing login requirements
