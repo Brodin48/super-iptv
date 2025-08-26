@@ -5,13 +5,14 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: '*',
       allow: '/',
-      disallow: ['/private/', '/admin/'],
+      disallow: ['/private/', '/admin/', '/_next/', '/api/'],
     },
     sitemap: [
-      'https://sa-iptv.io/sitemap.xml',
-      'https://sa-iptv.io/sitemap-pages.xml',
-      'https://sa-iptv.io/sitemap-posts.xml',
-      'https://sa-iptv.io/sitemap_index.xml'
+      'https://super-iptv.nl/sitemap.xml',
+      'https://super-iptv.nl/sitemap-pages.xml',
+      'https://super-iptv.nl/sitemap-posts.xml',
+      'https://super-iptv.nl/sitemap_index.xml'
     ],
+    host: 'https://super-iptv.nl'
   }
 }

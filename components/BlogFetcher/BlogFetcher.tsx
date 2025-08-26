@@ -7,8 +7,10 @@ interface WordPressPost {
   id: number
   date: string
   link: string
+  slug: string
   title: { rendered: string }
   excerpt: { rendered: string }
+  content?: { rendered: string }
   _embedded?: {
     'wp:featuredmedia'?: Array<{
       source_url: string
@@ -33,15 +35,25 @@ export default function BlogFetcher() {
       setLoading(true)
       setError(null)
       
-      // Try to fetch from WordPress REST API
-      const response = await fetch('https://blog.iptvbaba.com/wp-json/wp/v2/posts?_embed=true&per_page=9', {
+      // Primary: Try to fetch from your Super IPTV blog
+      let response = await fetch('https://blog.super-iptv.nl/wp-json/wp/v2/posts?_embed=true&per_page=9', {
         headers: {
           'Accept': 'application/json',
         },
       })
 
+      // Fallback: If primary fails, try alternative blog
       if (!response.ok) {
-        throw new Error(`Failed to fetch: ${response.status}`)
+        console.log('Primary blog unavailable, trying fallback...')
+        response = await fetch('https://blog.iptvbaba.com/wp-json/wp/v2/posts?_embed=true&per_page=9', {
+          headers: {
+            'Accept': 'application/json',
+          },
+        })
+      }
+
+      if (!response.ok) {
+        throw new Error(`Failed to fetch from both blog sources: ${response.status}`)
       }
 
       const data = await response.json()
@@ -55,7 +67,7 @@ export default function BlogFetcher() {
   }
 
   const formatDate = (dateString: string) => {
-    return new Date(dateString).toLocaleDateString('en-US', {
+    return new Date(dateString).toLocaleDateString('nl-NL', {
       year: 'numeric',
       month: 'long',
       day: 'numeric',
@@ -71,7 +83,7 @@ export default function BlogFetcher() {
     return (
       <div className="flex flex-col items-center justify-center py-20">
         <Loader2 className="w-8 h-8 text-primary-600 animate-spin mb-4" />
-        <p className="text-gray-600">Loading latest articles from blog.iptvbaba.com...</p>
+        <p className="text-gray-600">Loading latest articles from blog.super-iptv.nl...</p>
       </div>
     )
   }
@@ -88,15 +100,23 @@ export default function BlogFetcher() {
             <p className="text-gray-600 mb-4">
               {error}
             </p>
-            <a 
-              href="https://blog.iptvbaba.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center bg-primary-600 hover:bg-primary-700 text-white px-4 py-2 rounded-lg font-semibold transition-colors"
-            >
-              Visit Blog Directly
-              <ExternalLink className="w-4 h-4 ml-2" />
-            </a>
+            <div className="flex flex-wrap gap-2">
+              <a 
+                href="https://blog.super-iptv.nl"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center bg-primary-600 hover:bg-primary-700 text-white px-4 py-2 rounded-lg font-semibold transition-colors"
+              >
+                Visit Primary Blog
+                <ExternalLink className="w-4 h-4 ml-2" />
+              </a>
+              <button
+                onClick={fetchPosts}
+                className="inline-flex items-center bg-gray-600 hover:bg-gray-700 text-white px-4 py-2 rounded-lg font-semibold transition-colors"
+              >
+                Retry Loading
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -108,7 +128,7 @@ export default function BlogFetcher() {
       <div className="text-center py-20">
         <p className="text-gray-600 mb-6">No articles available at the moment.</p>
         <a 
-          href="https://blog.iptvbaba.com"
+          href="https://blog.super-iptv.nl"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center bg-primary-600 hover:bg-primary-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors"
@@ -162,15 +182,21 @@ export default function BlogFetcher() {
               
               <div className="flex items-center justify-between">
                 <a
-                  href={post.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href={`/blog/${post.slug}`}
                   className="inline-flex items-center text-primary-600 font-semibold hover:text-primary-700 transition-colors"
                 >
                   Read More
                   <ArrowRight className="w-4 h-4 ml-1" />
                 </a>
-                <ExternalLink className="w-4 h-4 text-gray-400" />
+                <a
+                  href={post.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-gray-600 transition-colors"
+                  title="View on blog"
+                >
+                  <ExternalLink className="w-4 h-4" />
+                </a>
               </div>
             </div>
           </article>
